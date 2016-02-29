@@ -94,6 +94,28 @@
         </configuration>
       </plugin>
 
+      <!--uncoment mojo plugin-->
+      <!--<plugin>-->
+        <!--<groupId>org.codehaus.mojo</groupId>-->
+        <!--<artifactId>gwt-maven-plugin</artifactId>-->
+        <!--<version>2.7.0</version>-->
+        <!--<executions>-->
+          <!--<execution>-->
+            <!--<goals>-->
+              <!--<goal>compile</goal>-->
+              <!--<goal>resources</goal>-->
+            <!--</goals>-->
+          <!--</execution>-->
+        <!--</executions>-->
+        <!--<configuration>-->
+          <!--<localWorkers>2</localWorkers>-->
+          <!--&lt;!&ndash;<extraJvmArgs>${gwt.maven.plugin.extraJvmArgs}</extraJvmArgs>&ndash;&gt;-->
+          <!--<disableCastChecking>true</disableCastChecking>-->
+          <!--<module>zufarfakhurtdinov.gwtpluginsample</module>-->
+        <!--</configuration>-->
+      <!--</plugin>-->
+
+
     </plugins>
     <pluginManagement>
       <plugins>
